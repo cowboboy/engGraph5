@@ -30,6 +30,17 @@
     <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\pipeline.cpp" />
     <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\technique.cpp" />
     <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\texture.cpp" />
+    <ClCompile Include="billboard_list.cpp" />
+    <ClCompile Include="billboard_technique.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="glut_backend.cpp" />
+    <ClCompile Include="lighting_technique.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="math_3d.cpp" />
+    <ClCompile Include="mesh.cpp" />
+    <ClCompile Include="pipeline.cpp" />
+    <ClCompile Include="technique.cpp" />
+    <ClCompile Include="texture.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\billboard_list.h" />
@@ -45,10 +56,24 @@
     <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\technique.h" />
     <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\texture.h" />
     <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\util.h" />
+    <ClInclude Include="billboard_list.h" />
+    <ClInclude Include="billboard_technique.h" />
+    <ClInclude Include="callbacks.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="engine_common.h" />
+    <ClInclude Include="glut_backend.h" />
+    <ClInclude Include="lighting_technique.h" />
+    <ClInclude Include="math_3d.h" />
+    <ClInclude Include="mesh.h" />
+    <ClInclude Include="pipeline.h" />
+    <ClInclude Include="technique.h" />
+    <ClInclude Include="texture.h" />
     <ClInclude Include="unistd.h" />
+    <ClInclude Include="util.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\Makefile" />
+    <None Include="Makefile" />
     <None Include="packages.config" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
