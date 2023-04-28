@@ -15,46 +15,113 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\mesh.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\pipeline.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\technique.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\texture.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\billboard_list.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\billboard_technique.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\camera.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\glut_backend.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\lighting_technique.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\main.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\math_3d.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="billboard_list.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
+    <None Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\Makefile" />
+    <None Include="packages.config" />
+    <None Include="Makefile" />
+    <None Include="boblampclean.md5anim" />
+    <None Include="boblampclean.md5mesh" />
+    <None Include="box.mtl" />
+    <None Include="buddha.mtl" />
+    <None Include="bunny.mtl" />
+    <None Include="dragon.mtl" />
+    <None Include="hheli.mtl" />
+    <None Include="jeep.mtl" />
+    <None Include="monkey.mtl" />
+    <None Include="phoenix.pcx" />
+    <None Include="phoenix_ugv.md2" />
+    <None Include="quad.mtl" />
+    <None Include="quad2.mtl" />
+    <None Include="README" />
+    <None Include="sphere.mtl" />
+    <None Include="spider.mtl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="fireworks_red.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bricks.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="diffuse.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="drkwood2.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="engineflare1.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="guard1_body.tga" />
+    <Image Include="guard1_face.tga" />
+    <Image Include="guard1_helmet.tga" />
+    <Image Include="heightmap.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="hheli.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="iron_grill.tga" />
+    <Image Include="jeep_army.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="jeep_rood.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="monster_hellknight.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="monster_hellknight.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="normal_map.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="normal_up.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="round_grill.tga" />
+    <Image Include="sp3back.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="sp3bot.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="sp3front.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="sp3left.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="sp3right.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="sp3top.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="SpiderTex.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="test.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="wal67ar_small.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="wal69ar_small.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="white.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="billboard_technique.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="camera.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="eng_graph_5.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="glut_backend.cpp">
@@ -63,16 +130,22 @@
     <ClCompile Include="lighting_technique.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="math_3d.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="mesh.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="particle_system.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
     <ClCompile Include="pipeline.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ps_update_technique.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="random_texture.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="technique.cpp">
@@ -83,51 +156,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\mesh.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\pipeline.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\technique.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\texture.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\util.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\billboard_list.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\billboard_technique.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\callbacks.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\camera.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\engine_common.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\glut_backend.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\lighting_technique.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\math_3d.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="unistd.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="billboard_list.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="billboard_technique.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
@@ -152,7 +180,16 @@
     <ClInclude Include="mesh.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="particle_system.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
     <ClInclude Include="pipeline.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ps_update_technique.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="random_texture.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="technique.h">
@@ -164,10 +201,5 @@
     <ClInclude Include="util.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\..\Downloads\ogldev-master\ogldev-master\tutorial27\Makefile" />
-    <None Include="packages.config" />
-    <None Include="Makefile" />
   </ItemGroup>
 </Project>

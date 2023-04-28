@@ -22,9 +22,10 @@
 #include <stdio.h>
 #include <math.h>
 
-#define M_PI 3.14
-#define ToRadian(x) ((x) * M_PI / 180.0f)
-#define ToDegree(x) ((x) * 180.0f / M_PI)
+#define ToRadian(x) ((x) * 3.14f / 180.0f)
+#define ToDegree(x) ((x) * 180.0f / 3.14f)
+
+float RandomFloat();
 
 struct Vector2i
 {
